@@ -1,0 +1,23 @@
+<!-- <p>usuario works!</p> -->
+<!-- https://jsonplaceholder.typicode.com/users -->
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Email</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Telefono</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of usuarios">
+            <th scope="row">{{usuario.id}}</th>
+            <td>{{usuario.name}}</td>
+            <td>{{usuario.email}}</td>
+            <td>{{usuario.address.city}}</td>
+            <td>{{usuario.phone}}</td>
+        </tr>
+    </tbody>
+</table>

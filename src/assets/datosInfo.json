@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "titulo": "Vivienda",
+        "img": "../assets/imagenes/vivienda.jpg",
+        "descripcion": "Son los gastos relacionados con una propiedad que pueden restarse de los impuestos, como intereses hipotecarios, impuestos a la propiedad y costos de mantenimiento.",
+        "info": " Los intereses pagados en préstamos hipotecarios son deducibles en muchos países."
+    },
+    {
+        "id": 2,
+        "titulo": "Salud",
+        "img": "../assets/imagenes/salud.jpg",
+        "descripcion": "Son los gastos médicos que pueden deducirse de los impuestos, como servicios médicos, medicamentos, primas de seguros médicos y equipos médicos.",
+        "info":"Los gastos médicos como consultas, tratamientos y cirugías son deducibles si superan un umbral de ingresos."
+    },
+    {
+        "id": 3,
+        "titulo": "Educacion",
+        "img": "../assets/imagenes/educacion.jpg",
+        "descripcion": "Son los costos educativos que pueden restarse de los impuestos, como matrículas escolares, colegiaturas universitarias, libros y materiales educativos.",
+        "info":"Los pagos por educación suelen ser deducibles, desde preescolar hasta educación superior."
+    }
+]

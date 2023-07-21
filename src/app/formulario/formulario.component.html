@@ -1,0 +1,39 @@
+<!-- <p>formulario works!</p> -->
+
+<div class="container">
+    <form>
+        <div class="form-group">
+            <legend class="text-center text-primary">Facturas Gastos</legend>
+        </div>
+    </form>
+</div>
+
+<form>
+    <fieldset>
+        <div class="mb-3">
+            <label for="disabledTextInput" class="form-label">RUC: </label>
+            <input type="text" name="ruc" id="ruc" class="form-control" placeholder="0999999999001" [(ngModel)]="ruc">
+        </div>
+        <div class="mb-3">
+            <label for="disabledTextInput" class="form-label">Valor Factura: </label>
+            <input type="text" name="valor" id="valor" class="form-control" placeholder="00,00" [(ngModel)]="valor">
+        </div>
+        <div class="mb-3">
+            <label for="disabledSelect" class="form-label">Seleccione el gasto:</label>
+            <select name="gasto" id="gasto" class="form-select" [(ngModel)]="gasto">
+                <option value="Salud">Salud</option>
+                <option value="Vivienda">Vivienda</option>
+                <option value="Educacion">Educacion</option>
+                <option value="Ninguno">Ninguno</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Agregar</button>
+    </fieldset>
+</form>
+
+<br>
+<div>
+    <p>RUC: {{ruc}}</p>
+    <p>VALOR: {{valor}}</p>
+    <p>TIPO GASTO: {{gasto}}</p>
+</div>
